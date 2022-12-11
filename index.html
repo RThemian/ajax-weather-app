@@ -29,15 +29,28 @@
         <h1 class="fw-bold">AJAX Weather Lab</h1>
         <div class="row">
             <div class="col-12">
-              <div id="weather">
-                <label for="weather for">Weather For: </label>
-                <p id="city-name"></p>
-                <label for="temp">Temperature: </label>
-                <p id="temp"></p>
-                <label for="feels-like">Feels Like: </label>
-                <p id="feels-like"></p>
-                <label for="weather">Weather: </p>
-                <p id="description"></label>
+              <div id="weather" class = "m-2 p-3">
+                
+                  <div class = 'm-2 p-2'>
+
+                      <label for="weather for" class="d-inline-block text-primary" >Weather For: </label>   
+                      <p id="city-name" class="d-inline-block"></p>
+                  </div>
+               <div class = 'm-2 p-2'>
+                   <label class="d-inline-block text-primary" for="temp">Temperature: </label>
+                   <p id="temp" class="d-inline-block"></p>
+                   
+               </div>
+                <div class = 'm-2 p-2'>
+                    <label for="feels-like" class="d-inline-block text-primary" >Feels Like: </label>
+                    <p id="feels-like" class="d-inline-block"></p>
+                    </div>  
+                <div class = 'm-2 p-2'>
+                <label for="weather" class="d-inline-block text-primary">Weather: </label>
+                    <p id="description" class="d-inline-block"></p>
+                    </div>
+            
+                </div>
               </div>
             </div>
           </div>
@@ -50,7 +63,7 @@
             <div class="form-group">
               <label for="city">City</label>
               <input type="text" class="form-control w-25" id="userInput" placeholder="city" />
-               
+             
 
             </div>
             

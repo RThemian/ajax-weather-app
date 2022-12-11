@@ -42,9 +42,9 @@ function handleGetData(event) {
 function render() {
   $city.text(weatherData.name);
 
-  $temp.text(Math.floor(weatherData.main.temp));
+  $temp.text(`${Math.floor(weatherData.main.temp)}°F`);
 
-  $feels_like.text(Math.floor(weatherData.main.feels_like));
+  $feels_like.text(`${Math.floor(weatherData.main.feels_like)}°F`);
   $description.text(weatherData.weather[0].description);
   //clear the input field
   $input.val("");
